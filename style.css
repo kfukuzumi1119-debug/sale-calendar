@@ -1,0 +1,276 @@
+:root {
+  --paper: #fffdf3;
+  --ink: #1a1a1a;
+  --sub: #555;
+  --red: #e60012;
+  --yellow: #ffe100;
+  --line: #1a1a1a;
+  --pale: #fff4b8;
+  --amazon: #ff9900;
+  --rakuten: #bf0000;
+  --yahoo: #ff0033;
+  --aupay: #eb5505;
+  --qoo10: #3c64e6;
+  --lohaco: #e2007f;
+  --other: #666;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "BIZ UDPGothic", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+  line-height: 1.7;
+}
+a { color: inherit; }
+.dg { font-family: "Dela Gothic One", sans-serif; font-weight: 400; }
+
+/* 題字 */
+.mast {
+  background: var(--red);
+  color: #fff;
+  border-bottom: 6px solid var(--yellow);
+}
+.mast-in { max-width: 1100px; margin: 0 auto; padding: 18px 16px 16px; }
+.mast-kicker { margin: 0; font-weight: 700; font-size: 14px; letter-spacing: .05em; }
+.mast-title {
+  margin: 2px 0 4px;
+  font-family: "Dela Gothic One", sans-serif; font-weight: 400;
+  font-size: clamp(38px, 9vw, 72px);
+  line-height: 1.1;
+}
+.mast-title span {
+  display: inline-block;
+  background: var(--yellow); color: var(--red);
+  padding: 0 .18em; margin-left: .08em;
+  transform: rotate(-2deg);
+}
+.mast-issue { margin: 6px 0 0; font-family: "Dela Gothic One", sans-serif; font-size: 20px; }
+.mast-issue small { font-family: "BIZ UDPGothic", sans-serif; font-weight: 700; font-size: 13px; margin-left: 10px; }
+
+main { max-width: 1100px; margin: 0 auto; padding: 0 16px 40px; }
+.block { margin-top: 32px; }
+.band {
+  display: inline-block;
+  margin: 0 0 14px;
+  background: var(--red); color: #fff;
+  font-family: "Dela Gothic One", sans-serif; font-weight: 400;
+  font-size: 22px; line-height: 1.3;
+  padding: 6px 16px 6px 12px;
+  clip-path: polygon(0 0, 100% 0, calc(100% - 10px) 50%, 100% 100%, 0 100%);
+  padding-right: 28px;
+}
+.band-y { background: var(--yellow); color: var(--ink); }
+.band-k { background: var(--ink); }
+
+/* 開催中・これから のタイル */
+.tiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  border-top: 3px solid var(--line);
+  border-left: 3px solid var(--line);
+}
+.tile {
+  border-right: 3px solid var(--line);
+  border-bottom: 3px solid var(--line);
+  padding: 12px 14px 14px;
+  background: #fff;
+  text-decoration: none;
+  display: flex; flex-direction: column; gap: 4px;
+  position: relative;
+}
+.tile:hover { background: var(--pale); }
+.tile .shop { align-self: flex-start; }
+.tile-title { font-weight: 700; font-size: 17px; line-height: 1.4; }
+.tile-count { display: flex; align-items: baseline; gap: 4px; margin-top: 4px; }
+.tile-count .pre { font-weight: 700; font-size: 15px; }
+.tile-count .num { font-family: "Dela Gothic One", sans-serif; font-size: 54px; line-height: 1; color: var(--red); }
+.tile-count .unit { font-family: "Dela Gothic One", sans-serif; font-size: 22px; color: var(--red); }
+.tile-count .num.today { font-size: 34px; }
+.tile-when { font-size: 13px; color: var(--sub); font-weight: 700; }
+.tile.predicted { background: repeating-linear-gradient(-45deg, #fff, #fff 8px, #fafafa 8px, #fafafa 16px); }
+.tile.predicted .num, .tile.predicted .unit { color: var(--ink); }
+.yoso {
+  display: inline-block; font-size: 12px; font-weight: 700;
+  border: 2px solid var(--ink); padding: 0 6px; margin-left: 6px; vertical-align: 2px;
+  background: #fff;
+}
+.empty { padding: 14px; border-right: 3px solid var(--line); border-bottom: 3px solid var(--line); background: #fff; font-weight: 700; }
+
+/* 予想のはんこ */
+.stamp {
+  position: absolute; top: 8px; right: 8px;
+  font-family: "Dela Gothic One", sans-serif; font-size: 20px; line-height: 1;
+  color: var(--ink); background: var(--yellow);
+  border: 3px solid var(--ink); padding: 6px 8px 7px;
+  transform: rotate(8deg);
+  box-shadow: 3px 3px 0 var(--ink);
+}
+.tile.predicted { border: 4px dashed var(--ink); margin: -1px; }
+.tile-pnote {
+  margin-top: 4px; font-size: 12px; font-weight: 700;
+  background: var(--ink); color: var(--yellow); padding: 3px 6px; align-self: flex-start;
+}
+
+/* 絞り込み */
+.filter { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 20px; }
+.filter button {
+  font: inherit; font-weight: 700; font-size: 14px; cursor: pointer;
+  background: #fff; color: var(--ink); border: 2px solid var(--ink);
+  padding: 5px 12px; box-shadow: 2px 2px 0 var(--ink);
+}
+.filter button span { margin-left: 6px; font-family: "Dela Gothic One", sans-serif; color: var(--red); }
+.filter button[aria-pressed="true"] { background: var(--ink); color: #fff; }
+.filter button[aria-pressed="true"] span { color: var(--yellow); }
+
+/* 店の札 */
+.shop {
+  display: inline-block;
+  font-weight: 700; font-size: 13px;
+  color: #fff; padding: 1px 8px;
+  background: var(--other);
+}
+.shop[data-s="amazon"] { background: var(--amazon); color: #111; }
+.shop[data-s="rakuten"] { background: var(--rakuten); }
+.shop[data-s="yahoo"] { background: var(--yahoo); }
+.shop[data-s="aupay"] { background: var(--aupay); }
+.shop[data-s="qoo10"] { background: var(--qoo10); }
+.shop[data-s="lohaco"] { background: var(--lohaco); }
+.shop[data-s="other"] { background: #333; }
+
+/* タイムライン */
+.legend { margin: 0 0 8px; font-size: 13px; font-weight: 700; display: flex; flex-wrap: wrap; align-items: center; gap: 4px 6px; }
+.lg { display: inline-block; width: 26px; height: 12px; margin-left: 10px; }
+.lg:first-child { margin-left: 0; }
+.lg-c { background: var(--red); }
+.lg-p { background: repeating-linear-gradient(-45deg, #fff, #fff 3px, #bbb 3px, #bbb 6px); border: 2px dashed var(--ink); }
+.lg-t { width: 3px; background: var(--red); height: 16px; }
+.tl-wrap { overflow-x: auto; border: 3px solid var(--line); background: #fff; -webkit-overflow-scrolling: touch; }
+.tl { display: grid; position: relative; min-width: max-content; }
+.tl-cell { border-right: 1px solid #e3e3e3; height: 100%; }
+.tl-head {
+  font-size: 11px; font-weight: 700; text-align: center; line-height: 1.2;
+  padding: 4px 0; border-bottom: 2px solid var(--line); background: #fff;
+}
+.tl-head.sat { color: #1f5fd6; }
+.tl-head.sun { color: var(--red); }
+.tl-head.mon1 { background: var(--pale); }
+.tl-month {
+  font-family: "Dela Gothic One", sans-serif; font-size: 13px;
+  border-bottom: 1px solid var(--line); padding: 2px 6px; background: var(--yellow);
+  white-space: nowrap;
+}
+.tl-label {
+  position: sticky; left: 0; z-index: 2;
+  background: #fff; border-right: 2px solid var(--line); border-bottom: 1px solid #e3e3e3;
+  padding: 4px 8px; font-size: 12px; font-weight: 700; line-height: 1.3;
+  display: flex; flex-direction: column; justify-content: center;
+  width: 150px;
+}
+.tl-label .shop { font-size: 11px; padding: 0 5px; align-self: flex-start; flex-shrink: 0; }
+.tl-label > span:last-child { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.tl-row-bg { border-bottom: 1px solid #e3e3e3; }
+.tl-bar {
+  margin: 8px 0; height: 24px; align-self: center;
+  background: var(--red); color: #fff;
+  font-size: 11px; font-weight: 700; white-space: nowrap; overflow: hidden;
+  padding: 3px 6px; line-height: 18px;
+  text-decoration: none;
+  z-index: 1;
+}
+.tl-bar[data-s="amazon"] { background: var(--amazon); color: #111; }
+.tl-bar[data-s="rakuten"] { background: var(--rakuten); }
+.tl-bar[data-s="yahoo"] { background: var(--yahoo); }
+.tl-bar[data-s="aupay"] { background: var(--aupay); }
+.tl-bar[data-s="qoo10"] { background: var(--qoo10); }
+.tl-bar[data-s="other"] { background: #333; }
+.tl-bar.cut { padding-left: 14px; clip-path: polygon(8px 0, 100% 0, 100% 100%, 8px 100%, 0 50%); }
+.tile.predicted .tile-title { padding-right: 56px; }
+.tl-bar.p {
+  background: repeating-linear-gradient(-45deg, #fff, #fff 4px, #ddd 4px, #ddd 8px) !important;
+  color: var(--ink) !important; border: 2px dashed var(--ink); line-height: 14px;
+}
+.tl-today { background: var(--red); width: 3px; justify-self: center; z-index: 3; pointer-events: none; }
+
+/* 一覧 */
+.sale {
+  border: 3px solid var(--line); background: #fff;
+  margin-bottom: 16px;
+  display: grid; grid-template-columns: 200px 1fr;
+}
+.sale-side {
+  border-right: 3px solid var(--line); padding: 14px;
+  background: var(--pale);
+  display: flex; flex-direction: column; gap: 6px;
+}
+.sale.predicted .sale-side { background: #f1f1f1; }
+.sale-date { font-family: "Dela Gothic One", sans-serif; font-size: 20px; line-height: 1.3; }
+.sale-date small { display: block; font-family: "BIZ UDPGothic", sans-serif; font-weight: 700; font-size: 13px; }
+.sale-state { font-weight: 700; font-size: 14px; }
+.sale-state b { color: var(--red); font-size: 18px; }
+.sale-main { padding: 14px 16px; }
+.sale-main h3 { margin: 0 0 4px; font-size: 21px; line-height: 1.35; }
+.sale-sum { margin: 0 0 8px; }
+.sale-note { margin: 0 0 8px; font-size: 14px; font-weight: 700; border-left: 4px solid var(--ink); padding-left: 8px; }
+.sale-entry { margin: 0 0 8px; font-size: 14px; }
+.sale-entry b { background: var(--yellow); padding: 0 4px; }
+.tips-h { margin: 10px 0 4px; font-family: "Dela Gothic One", sans-serif; font-size: 15px; color: var(--red); }
+.tips { margin: 0; padding: 0; list-style: none; }
+.tips li { position: relative; padding-left: 1.4em; margin-bottom: 4px; }
+.tips li::before { content: "★"; position: absolute; left: 0; color: var(--red); }
+.sale-foot { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; margin-top: 12px; }
+.btn {
+  display: inline-block; background: var(--red); color: #fff; font-weight: 700;
+  text-decoration: none; padding: 8px 16px; border: 2px solid var(--line);
+  box-shadow: 3px 3px 0 var(--line);
+}
+.btn:hover { transform: translate(1px,1px); box-shadow: 2px 2px 0 var(--line); }
+.src { font-size: 12px; color: var(--sub); width: 100%; }
+.cal { font-size: 13px; font-weight: 700; display: inline-flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.cal a, .cal button {
+  font: inherit; font-size: 13px; cursor: pointer; color: var(--ink); text-decoration: none;
+  background: var(--yellow); border: 2px solid var(--ink); padding: 3px 10px;
+}
+.btn-w { background: #fff; color: var(--ink); }
+
+/* 通知（購読） */
+.subscribe { background: var(--pale); border: 3px solid var(--line); padding: 16px; }
+.sub-lead { margin: 0 0 12px; max-width: 46em; }
+.sub-lead b { color: var(--red); }
+.sub-btns { display: flex; flex-wrap: wrap; gap: 12px; }
+.sub-more { margin-top: 14px; font-size: 14px; }
+.sub-more summary { cursor: pointer; font-weight: 700; }
+.sub-more p { margin: 8px 0; max-width: 46em; }
+.sub-row { display: flex; gap: 6px; }
+.sub-row input { flex: 1; min-width: 0; font: inherit; font-size: 13px; padding: 6px; border: 2px solid var(--ink); background: #fff; }
+.sub-row button { font: inherit; font-weight: 700; border: 2px solid var(--ink); background: var(--ink); color: #fff; padding: 6px 12px; cursor: pointer; }
+.sale.ended { opacity: .55; }
+
+.monthly { list-style: none; margin: 0; padding: 0; border-top: 3px solid var(--line); }
+.monthly li { border-bottom: 1px solid var(--line); padding: 10px 4px; display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; }
+.monthly .m-title { font-weight: 700; font-size: 17px; }
+.monthly .m-days { font-family: "Dela Gothic One", sans-serif; color: var(--red); }
+.monthly .m-note { font-size: 14px; color: var(--sub); width: 100%; }
+
+.note p { margin: 0 0 10px; max-width: 46em; }
+.colophon { border-top: 6px solid var(--red); text-align: center; padding: 16px; font-weight: 700; font-size: 14px; }
+
+@media (max-width: 640px) {
+  .sale { grid-template-columns: 1fr; }
+  .sale-side { border-right: 0; border-bottom: 3px solid var(--line); flex-direction: row; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; }
+  .tl-label { width: 112px; font-size: 11px; }
+  .tl-label .shop { display: block; width: fit-content; white-space: nowrap; max-width: 100%; overflow: hidden; text-overflow: ellipsis; }
+  .tiles { grid-template-columns: 1fr 1fr; }
+  .tile { padding: 10px; }
+  .tile-title { font-size: 14px; }
+  .tile-count .num { font-size: 40px; }
+  .tile-count .num.today { font-size: 24px; }
+  .tile-count .unit { font-size: 18px; }
+  .tile-when { font-size: 12px; }
+  .tile .shop { font-size: 11px; }
+  .mast-title { font-size: 34px; }
+  .mast-issue { font-size: 16px; }
+  .mast-issue small { display: block; margin-left: 0; }
+  .band { font-size: 19px; }
+}

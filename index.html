@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ネット通販セール暦｜Amazon・楽天・Yahoo!ショッピングのセールはいつ？</title>
+<meta name="description" content="Amazon・楽天市場・Yahoo!ショッピング・au PAY マーケット・Qoo10 のセール期間を1枚のカレンダーにまとめました。開催中のセールの残り日数、エントリーの要否、お得に買うコツ、次のセールの予想まで。毎週金曜の夜に更新。">
+<meta name="theme-color" content="#e60012">
+<link rel="canonical" href="https://kfukuzumi1119-debug.github.io/sale-calendar/">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:title" content="ネット通販セール暦">
+<meta property="og:description" content="Amazon・楽天・Yahoo!ショッピングなどのセール期間を1枚のカレンダーに。毎週金曜更新。">
+<meta property="og:url" content="https://kfukuzumi1119-debug.github.io/sale-calendar/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=BIZ+UDPGothic:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="mast">
+  <div class="mast-in">
+    <p class="mast-kicker">Amazon・楽天・Yahoo!ショッピング ほか</p>
+    <h1 class="mast-title">ネット通販<span>セール暦</span></h1>
+    <p class="mast-issue"><span id="issue">—</span>更新号<small>毎週金曜の夜に更新</small></p>
+  </div>
+</header>
+
+<main>
+  <nav class="filter" id="filter" aria-label="分類で絞り込む"></nav>
+
+  <section class="block" id="now-block">
+    <h2 class="band">いま開催中</h2>
+    <div id="now" class="tiles"></div>
+  </section>
+
+  <section class="block">
+    <h2 class="band band-y">これから始まる</h2>
+    <div id="soon" class="tiles"></div>
+  </section>
+
+  <section class="block subscribe">
+    <h2 class="band band-k">スマホに通知を出す</h2>
+    <p class="sub-lead">セール暦をスマホのカレンダーに<b>まるごと登録</b>できます。毎週金曜の更新で新しいセールが自動で増え、<b>始まる1時間前</b>と<b>終わる3時間前</b>にお知らせします。</p>
+    <div class="sub-btns">
+      <a class="btn" id="sub-apple" href="#">iPhone・Mac で登録</a>
+      <a class="btn btn-w" id="sub-google" href="#" target="_blank" rel="noopener">Google カレンダーで登録</a>
+    </div>
+    <details class="sub-more">
+      <summary>うまくいかないとき・ほかのカレンダー</summary>
+      <p>カレンダーアプリの「照会カレンダー（URLで追加）」に、次のアドレスを貼りつけてください。</p>
+      <p class="sub-row"><input id="sub-url" readonly aria-label="購読用アドレス"><button type="button" id="sub-copy">コピー</button></p>
+      <p>Google カレンダーは、パソコンの画面で「他のカレンダー」の＋ →「URL で追加」から登録します。Google は購読したカレンダーの通知を出さないことがあるので、そのときは各セールの「カレンダーに入れる」から1件ずつ入れてください。iPhone は「設定 → カレンダー → アカウント → 照会したカレンダー」で「アラートを削除」をオフにすると通知が出ます。</p>
+    </details>
+  </section>
+
+  <section class="block">
+    <h2 class="band">セール暦（カレンダー）</h2>
+    <p class="legend">
+      <span class="lg lg-c"></span>日程確定
+      <span class="lg lg-p"></span>予想（未発表）
+      <span class="lg lg-t"></span>今日
+    </p>
+    <div class="tl-wrap"><div id="timeline" class="tl"></div></div>
+  </section>
+
+  <section class="block">
+    <h2 class="band">セールの中身と攻略ポイント</h2>
+    <div id="list"></div>
+  </section>
+
+  <section class="block">
+    <h2 class="band band-y">毎月のお得な日</h2>
+    <ul id="monthly" class="monthly"></ul>
+  </section>
+
+  <section class="block note">
+    <h2 class="band band-k">このページについて</h2>
+    <p>Amazon・楽天市場・Yahoo!ショッピング・au PAY マーケット・Qoo10 などのセール期間を、1枚のカレンダーにまとめています。各社の公式発表やニュースをもとに、毎週金曜の夜に書き直しています。</p>
+    <p>「予想」と書いたものは、まだ公式発表がないセールです。過去の開催日から見込みを載せています。ポイントの倍率・上限・エントリー条件は変わることがあるので、買う前に必ず公式ページで確かめてください。</p>
+  </section>
+</main>
+
+<footer class="colophon">
+  <p>ネット通販セール暦　発行：けんつ</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
