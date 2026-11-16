@@ -49,7 +49,7 @@ def main():
             continue
         pred = s.get("status") == "predicted"
         shop = s.get("shopName") or SHOP.get(s["shop"], "")
-        title = s["title"] + ("（予想）" if pred else "")
+        title = s["title"] + ("　" + s["off"] if s.get("off") else "") + ("（予想）" if pred else "")
         desc = [shop]
         if pred:
             desc.append("※日程は未発表。" + (s.get("dateNote") or ""))

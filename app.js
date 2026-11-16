@@ -45,7 +45,7 @@ function zt(d) { return d.toISOString().replace(/[-:]/g, "").replace(/\.\d{3}/, 
 function calText(s) {
   const pred = s.status === "predicted";
   return {
-    title: "【セール】" + s.title + (pred ? "（予想）" : ""),
+    title: "【セール】" + s.title + (s.off ? "　" + s.off : "") + (pred ? "（予想）" : ""),
     details: [s.shopName || SHOP_NAME[s.shop] || "", pred ? "※日程は未発表。" + (s.dateNote || "") : "", s.summary || "",
       s.entry ? "エントリー：" + s.entry : "", ...(s.tips || []).map(t => "★" + t), "公式：" + (s.url || ""),
       location.origin + location.pathname + "#" + s.id].filter(Boolean).join("\n")
@@ -112,6 +112,7 @@ function tile(s, st) {
     ${pred ? '<span class="stamp">予想</span>' : ""}
     ${shopTag(s.shop, s.shopName)}
     <span class="tile-title">${esc(s.title)}</span>
+    ${s.off ? `<span class="off">${esc(s.off)}</span>` : ""}
     <span class="tile-count">${countHTML(st)}</span>
     <span class="tile-when">${when}${pred ? "（見込み）" : ""}</span>
     ${pred ? `<span class="tile-pnote">日程は未発表。${esc(s.announce || "過去の開催からの見込みです")}</span>` : ""}
@@ -131,7 +132,7 @@ function card(s, st) {
       <div class="sale-state">${stateText}</div>
     </div>
     <div class="sale-main">
-      <h3>${esc(s.title)}${pred ? '<span class="yoso">予想</span>' : ""}</h3>
+      <h3>${esc(s.title)}${s.off ? `<span class="off off-h">${esc(s.off)}</span>` : ""}${pred ? '<span class="yoso">予想</span>' : ""}</h3>
       ${s.dateNote ? `<p class="sale-note">${esc(s.dateNote)}</p>` : ""}
       <p class="sale-sum">${esc(s.summary)}</p>
       ${s.entry ? `<p class="sale-entry">エントリー：<b>${esc(s.entry)}</b></p>` : ""}
@@ -188,7 +189,7 @@ function timeline(sales, now) {
     const b = Math.min(N - 1, Math.round((dayKey(s.e) - startKey) / DAY));
     const pred = s.status === "predicted";
     const cut = dayKey(s.s) < startKey;
-    h += `<a class="tl-bar${pred ? " p" : ""}${cut ? " cut" : ""}" data-s="${esc(s.shop)}" href="#${esc(s.id)}" style="grid-row:${row};grid-column:${a + 2} / ${b + 3}" title="${esc(s.title)}　${esc(fmtRange(s))}">${esc(fmtDate(s.s).replace(/（.）/, ""))}〜${esc(fmtDate(s.e).replace(/（.）/, ""))}${pred ? " 予想" : ""}</a>`;
+    h += `<a class="tl-bar${pred ? " p" : ""}${cut ? " cut" : ""}" data-s="${esc(s.shop)}" href="#${esc(s.id)}" style="grid-row:${row};grid-column:${a + 2} / ${b + 3}" title="${esc(s.title)}　${esc(fmtRange(s))}">${esc(fmtDate(s.s).replace(/（.）/, ""))}〜${esc(fmtDate(s.e).replace(/（.）/, ""))}${s.off ? " " + esc(s.off) : ""}${pred ? " 予想" : ""}</a>`;
   });
   const t = Math.round((dayKey(now) - startKey) / DAY);
   h += `<div class="tl-today" style="grid-row:2 / ${rows.length + 3};grid-column:${t + 2}"></div>`;
