@@ -5,7 +5,7 @@ from datetime import datetime, timedelta, timezone
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 JST = timezone(timedelta(hours=9))
-SITE = "https://kfukuzumi1119-debug.github.io/sale-calendar/"
+SITE = "https://sale.hibitool.com/"
 SHOP = {"amazon": "Amazon", "rakuten": "楽天市場", "yahoo": "Yahoo!ショッピング",
         "aupay": "au PAY マーケット", "qoo10": "Qoo10", "lohaco": "LOHACO"}
 

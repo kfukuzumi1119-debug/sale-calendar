@@ -9,14 +9,14 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:nitori-blackfriday-2026@sale-calendar
-DTSTAMP:20261116T065857Z
+DTSTAMP:20261116T101430Z
 DTSTART:20261029T150000Z
 DTEND:20261124T150000Z
 SUMMARY:【セール】ニトリ ブラックフライデー
 DESCRIPTION:ニトリネット\nダイニング家具・ベッド・大型
  家電など約600アイテムが期間限定価格。\n公式：https://w
- ww.nitori-net.jp/\nネット通販セール暦：https://kfukuzumi1119-deb
- ug.github.io/sale-calendar/#nitori-blackfriday-2026
+ ww.nitori-net.jp/\nネット通販セール暦：https://sale.hibitool.com
+ /#nitori-blackfriday-2026
 URL:https://www.nitori-net.jp/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -27,12 +27,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nitori-blackfriday-2026-end@sale-calendar
-DTSTAMP:20261116T065857Z
+DTSTAMP:20261116T101430Z
 DTSTART:20261124T115900Z
 DTEND:20261124T122900Z
 SUMMARY:【まもなく終了】ニトリ ブラックフライデー
-DESCRIPTION:11/24 23:59 に終わります。\nhttps://kfukuzumi1119-debug.
- github.io/sale-calendar/#nitori-blackfriday-2026
+DESCRIPTION:11/24 23:59 に終わります。\nhttps://sale.hibitool.com/#n
+ itori-blackfriday-2026
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:PT0M
@@ -42,15 +42,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dyson-blackfriday-2026@sale-calendar
-DTSTAMP:20261116T065857Z
+DTSTAMP:20261116T101430Z
 DTSTART:20261030T010000Z
 DTEND:20261201T010100Z
 SUMMARY:【セール】ダイソン ブラックフライデー　最大50%
  OFF
 DESCRIPTION:ダイソン公式\n18製品とセット1種が特別価格。
  最大50%オフの製品あり。\n公式：https://www.dyson.co.jp/\nネ
- ット通販セール暦：https://kfukuzumi1119-debug.github.io/sale-cale
- ndar/#dyson-blackfriday-2026
+ ット通販セール暦：https://sale.hibitool.com/#dyson-blackfriday-20
+ 26
 URL:https://www.dyson.co.jp/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -61,13 +61,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dyson-blackfriday-2026-end@sale-calendar
-DTSTAMP:20261116T065857Z
+DTSTAMP:20261116T101430Z
 DTSTART:20261130T220000Z
 DTEND:20261130T223000Z
 SUMMARY:【まもなく終了】ダイソン ブラックフライデー　
  最大50%OFF
-DESCRIPTION:12/1 10:00 に終わります。\nhttps://kfukuzumi1119-debug.g
- ithub.io/sale-calendar/#dyson-blackfriday-2026
+DESCRIPTION:12/1 10:00 に終わります。\nhttps://sale.hibitool.com/#dy
+ son-blackfriday-2026
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:PT0M
@@ -77,7 +77,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:akachan-blackfriday-2026@sale-calendar
-DTSTAMP:20261116T065857Z
+DTSTAMP:20261116T101430Z
 DTSTART:20261030T010000Z
 DTEND:20261204T010000Z
 SUMMARY:【セール】アカチャンホンポ ブラックフライデー
@@ -85,8 +85,8 @@ SUMMARY:【セール】アカチャンホンポ ブラックフライデー
 DESCRIPTION:アカチャンホンポ\n週替わりで対象商品が変わ
  る。60%オフの商品もあり。\n★週ごとに対象が入れ替わ
  るので、欲しい物の週をチェック\n公式：https://shop.akach
- an.jp/\nネット通販セール暦：https://kfukuzumi1119-debug.github.i
- o/sale-calendar/#akachan-blackfriday-2026
+ an.jp/\nネット通販セール暦：https://sale.hibitool.com/#akachan-b
+ lackfriday-2026
 URL:https://shop.akachan.jp/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -97,13 +97,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:akachan-blackfriday-2026-end@sale-calendar
-DTSTAMP:20261116T065857Z
+DTSTAMP:20261116T101430Z
 DTSTART:20261203T215900Z
 DTEND:20261203T222900Z
 SUMMARY:【まもなく終了】アカチャンホンポ ブラックフラ
  イデー　最大60%OFF
-DESCRIPTION:12/4 9:59 に終わります。\nhttps://kfukuzumi1119-debug.gi
- thub.io/sale-calendar/#akachan-blackfriday-2026
+DESCRIPTION:12/4 9:59 に終わります。\nhttps://sale.hibitool.com/#aka
+ chan-blackfriday-2026
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:PT0M
@@ -113,14 +113,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:aeonshop-blackfriday-2026@sale-calendar
-DTSTAMP:20261116T065857Z
+DTSTAMP:20261116T101430Z
 DTSTART:20261031T010000Z
 DTEND:20261130T150000Z
 SUMMARY:【セール】イオンショップ ブラックフライデー
 DESCRIPTION:イオンショップ\n購入金額に応じた割引クーポ
  ン（5\,000円以上で750円OFF など）。\n公式：https://shop.aeon
- .com/\nネット通販セール暦：https://kfukuzumi1119-debug.github.io
- /sale-calendar/#aeonshop-blackfriday-2026
+ .com/\nネット通販セール暦：https://sale.hibitool.com/#aeonshop-b
+ lackfriday-2026
 URL:https://shop.aeon.com/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -131,13 +131,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:aeonshop-blackfriday-2026-end@sale-calendar
-DTSTAMP:20261116T065857Z
+DTSTAMP:20261116T101430Z
 DTSTART:20261130T115900Z
 DTEND:20261130T122900Z
 SUMMARY:【まもなく終了】イオンショップ ブラックフライ
  デー
-DESCRIPTION:11/30 23:59 に終わります。\nhttps://kfukuzumi1119-debug.
- github.io/sale-calendar/#aeonshop-blackfriday-2026
+DESCRIPTION:11/30 23:59 に終わります。\nhttps://sale.hibitool.com/#a
+ eonshop-blackfriday-2026
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:PT0M
@@ -147,14 +147,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mistore-blackfriday-2026@sale-calendar
-DTSTAMP:20261116T065857Z
+DTSTAMP:20261116T101430Z
 DTSTART:20261104T010000Z
 DTEND:20261202T010100Z
 SUMMARY:【セール】三越伊勢丹 ブラックフライデー
 DESCRIPTION:三越伊勢丹オンライン\n人気ブランドのタイム
  セール。食品・ファッションなど。\n公式：https://www.mis
- tore.jp/\nネット通販セール暦：https://kfukuzumi1119-debug.github
- .io/sale-calendar/#mistore-blackfriday-2026
+ tore.jp/\nネット通販セール暦：https://sale.hibitool.com/#mistore
+ -blackfriday-2026
 URL:https://www.mistore.jp/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -165,12 +165,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mistore-blackfriday-2026-end@sale-calendar
-DTSTAMP:20261116T065857Z
+DTSTAMP:20261116T101430Z
 DTSTART:20261201T220000Z
 DTEND:20261201T223000Z
 SUMMARY:【まもなく終了】三越伊勢丹 ブラックフライデー
-DESCRIPTION:12/2 10:00 に終わります。\nhttps://kfukuzumi1119-debug.g
- ithub.io/sale-calendar/#mistore-blackfriday-2026
+DESCRIPTION:12/2 10:00 に終わります。\nhttps://sale.hibitool.com/#mi
+ store-blackfriday-2026
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:PT0M
@@ -180,15 +180,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:edion-blackfriday-2026@sale-calendar
-DTSTAMP:20261116T065857Z
+DTSTAMP:20261116T101430Z
 DTSTART:20261104T060000Z
 DTEND:20261203T150000Z
 SUMMARY:【セール】エディオン ブラックフライデー
 DESCRIPTION:エディオン\nブラックフライデー限定の特価品
  と、週末限定のクーポン（会員登録が必要）。\n★週末
  限定クーポンは会員登録してから受け取る\n公式：https:
- //www.edion.com/\nネット通販セール暦：https://kfukuzumi1119-debu
- g.github.io/sale-calendar/#edion-blackfriday-2026
+ //www.edion.com/\nネット通販セール暦：https://sale.hibitool.com/
+ #edion-blackfriday-2026
 URL:https://www.edion.com/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -199,12 +199,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:edion-blackfriday-2026-end@sale-calendar
-DTSTAMP:20261116T065857Z
+DTSTAMP:20261116T101430Z
 DTSTART:20261203T115900Z
 DTEND:20261203T122900Z
 SUMMARY:【まもなく終了】エディオン ブラックフライデー
-DESCRIPTION:12/3 23:59 に終わります。\nhttps://kfukuzumi1119-debug.g
- ithub.io/sale-calendar/#edion-blackfriday-2026
+DESCRIPTION:12/3 23:59 に終わります。\nhttps://sale.hibitool.com/#ed
+ ion-blackfriday-2026
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:PT0M
@@ -214,13 +214,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:owndays-blackfriday-2026@sale-calendar
-DTSTAMP:20261116T065857Z
+DTSTAMP:20261116T101430Z
 DTSTART:20261106T010000Z
 DTEND:20261130T150000Z
 SUMMARY:【セール】OWNDAYS ブラックフライデー　最大50%OFF
 DESCRIPTION:OWNDAYS\n対象商品が最大50%OFF。\n公式：https://www.o
- wndays.com/jp/ja\nネット通販セール暦：https://kfukuzumi1119-debu
- g.github.io/sale-calendar/#owndays-blackfriday-2026
+ wndays.com/jp/ja\nネット通販セール暦：https://sale.hibitool.com/
+ #owndays-blackfriday-2026
 URL:https://www.owndays.com/jp/ja
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -231,13 +231,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:owndays-blackfriday-2026-end@sale-calendar
-DTSTAMP:20261116T065857Z
+DTSTAMP:20261116T101430Z
 DTSTART:20261130T115900Z
 DTEND:20261130T122900Z
 SUMMARY:【まもなく終了】OWNDAYS ブラックフライデー　最
  大50%OFF
-DESCRIPTION:11/30 23:59 に終わります。\nhttps://kfukuzumi1119-debug.
- github.io/sale-calendar/#owndays-blackfriday-2026
+DESCRIPTION:11/30 23:59 に終わります。\nhttps://sale.hibitool.com/#o
+ wndays-blackfriday-2026
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:PT0M
@@ -247,7 +247,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:yamada-blackfriday-2026@sale-calendar
-DTSTAMP:20261116T065857Z
+DTSTAMP:20261116T101430Z
 DTSTART:20261109T150000Z
 DTEND:20261204T150000Z
 SUMMARY:【セール】ヤマダ ブラックフライデー（第2弾・
@@ -256,8 +256,7 @@ DESCRIPTION:ヤマダウェブコム\n家電・インテリアのセール
  を3回に分けて開催。第2弾 11/10〜11/19、第3弾 11/20〜12/4
  。\n★11/20 から第3弾に切り替わるので、対象商品が入
  れ替わる\n公式：https://www.yamada-denkiweb.com/\nネット通販
- セール暦：https://kfukuzumi1119-debug.github.io/sale-calendar/#yamada
- -blackfriday-2026
+ セール暦：https://sale.hibitool.com/#yamada-blackfriday-2026
 URL:https://www.yamada-denkiweb.com/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -268,13 +267,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:yamada-blackfriday-2026-end@sale-calendar
-DTSTAMP:20261116T065857Z
+DTSTAMP:20261116T101430Z
 DTSTART:20261204T115900Z
 DTEND:20261204T122900Z
 SUMMARY:【まもなく終了】ヤマダ ブラックフライデー（第
  2弾・第3弾）
-DESCRIPTION:12/4 23:59 に終わります。\nhttps://kfukuzumi1119-debug.g
- ithub.io/sale-calendar/#yamada-blackfriday-2026
+DESCRIPTION:12/4 23:59 に終わります。\nhttps://sale.hibitool.com/#ya
+ mada-blackfriday-2026
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:PT0M
@@ -284,14 +283,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:zoff-blackfriday-2026@sale-calendar
-DTSTAMP:20261116T065857Z
+DTSTAMP:20261116T101430Z
 DTSTART:20261111T020000Z
 DTEND:20261203T150000Z
 SUMMARY:【セール】Zoff ブラックフライデー
 DESCRIPTION:Zoff\n限定価格のフレーム、WEB限定商品やタイム
  セール。\n公式：https://www.zoff.co.jp/\nネット通販セール
- 暦：https://kfukuzumi1119-debug.github.io/sale-calendar/#zoff-blackfrida
- y-2026
+ 暦：https://sale.hibitool.com/#zoff-blackfriday-2026
 URL:https://www.zoff.co.jp/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -301,12 +299,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:zoff-blackfriday-2026-end@sale-calendar
-DTSTAMP:20261116T065857Z
+DTSTAMP:20261116T101430Z
 DTSTART:20261203T115900Z
 DTEND:20261203T122900Z
 SUMMARY:【まもなく終了】Zoff ブラックフライデー
-DESCRIPTION:12/3 23:59 に終わります。\nhttps://kfukuzumi1119-debug.g
- ithub.io/sale-calendar/#zoff-blackfriday-2026
+DESCRIPTION:12/3 23:59 に終わります。\nhttps://sale.hibitool.com/#zo
+ ff-blackfriday-2026
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:PT0M
@@ -316,7 +314,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:biccamera-blackfriday-2026@sale-calendar
-DTSTAMP:20261116T065857Z
+DTSTAMP:20261116T101430Z
 DTSTART:20261112T150000Z
 DTEND:20261130T150000Z
 SUMMARY:【セール】ビックカメラ ブラックフライデー　最
@@ -324,8 +322,7 @@ SUMMARY:【セール】ビックカメラ ブラックフライデー　最
 DESCRIPTION:ビックカメラ.com\n対象商品のポイント上乗せと
  、指定メーカーのまとめ買いで最大10%引き。\n★まとめ
  買い割は 11/23 まで\n公式：https://www.biccamera.com/\nネット
- 通販セール暦：https://kfukuzumi1119-debug.github.io/sale-calendar/#
- biccamera-blackfriday-2026
+ 通販セール暦：https://sale.hibitool.com/#biccamera-blackfriday-2026
 URL:https://www.biccamera.com/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -336,13 +333,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:biccamera-blackfriday-2026-end@sale-calendar
-DTSTAMP:20261116T065857Z
+DTSTAMP:20261116T101430Z
 DTSTART:20261130T115900Z
 DTEND:20261130T122900Z
 SUMMARY:【まもなく終了】ビックカメラ ブラックフライデ
  ー　最大10%OFF
-DESCRIPTION:11/30 23:59 に終わります。\nhttps://kfukuzumi1119-debug.
- github.io/sale-calendar/#biccamera-blackfriday-2026
+DESCRIPTION:11/30 23:59 に終わります。\nhttps://sale.hibitool.com/#b
+ iccamera-blackfriday-2026
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:PT0M
@@ -352,15 +349,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:yogibo-blackfriday-2026@sale-calendar
-DTSTAMP:20261116T065857Z
+DTSTAMP:20261116T101430Z
 DTSTART:20261112T150000Z
 DTEND:20261130T150000Z
 SUMMARY:【セール】Yogibo ブラックフライデー　全品10%OFF
 DESCRIPTION:Yogibo 公式\n全品10%OFF（一部対象外）。\n★Yahoo!
  ショッピングのブラックフライデーでも Yogibo が最大40%
  ポイントアップの予定。比べてから買う\n公式：https://y
- ogibo.jp/\nネット通販セール暦：https://kfukuzumi1119-debug.githu
- b.io/sale-calendar/#yogibo-blackfriday-2026
+ ogibo.jp/\nネット通販セール暦：https://sale.hibitool.com/#yogibo
+ -blackfriday-2026
 URL:https://yogibo.jp/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -371,13 +368,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:yogibo-blackfriday-2026-end@sale-calendar
-DTSTAMP:20261116T065857Z
+DTSTAMP:20261116T101430Z
 DTSTART:20261130T115900Z
 DTEND:20261130T122900Z
 SUMMARY:【まもなく終了】Yogibo ブラックフライデー　全品
  10%OFF
-DESCRIPTION:11/30 23:59 に終わります。\nhttps://kfukuzumi1119-debug.
- github.io/sale-calendar/#yogibo-blackfriday-2026
+DESCRIPTION:11/30 23:59 に終わります。\nhttps://sale.hibitool.com/#y
+ ogibo-blackfriday-2026
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:PT0M
@@ -387,7 +384,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:takashimaya-blackfriday-2026@sale-calendar
-DTSTAMP:20261116T065857Z
+DTSTAMP:20261116T101430Z
 DTSTART:20261116T010000Z
 DTEND:20261128T010100Z
 SUMMARY:【セール】高島屋 ブラックフライデー
@@ -395,8 +392,7 @@ DESCRIPTION:高島屋オンライン\n約1\,500点の特別提供品と送
  料無料クーポン。11/16〜18 はアプリ会員の先行、11/18 10:
  00 から本番。\n★アプリ会員なら 11/16 10:00 から先に買
  える\n公式：https://www.takashimaya.co.jp/shopping/\nネット通販
- セール暦：https://kfukuzumi1119-debug.github.io/sale-calendar/#takash
- imaya-blackfriday-2026
+ セール暦：https://sale.hibitool.com/#takashimaya-blackfriday-2026
 URL:https://www.takashimaya.co.jp/shopping/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -407,12 +403,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:takashimaya-blackfriday-2026-end@sale-calendar
-DTSTAMP:20261116T065857Z
+DTSTAMP:20261116T101430Z
 DTSTART:20261127T220000Z
 DTEND:20261127T223000Z
 SUMMARY:【まもなく終了】高島屋 ブラックフライデー
-DESCRIPTION:11/28 10:00 に終わります。\nhttps://kfukuzumi1119-debug.
- github.io/sale-calendar/#takashimaya-blackfriday-2026
+DESCRIPTION:11/28 10:00 に終わります。\nhttps://sale.hibitool.com/#t
+ akashimaya-blackfriday-2026
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:PT0M
@@ -422,7 +418,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:aupay-blackfriday-2026@sale-calendar
-DTSTAMP:20261116T065857Z
+DTSTAMP:20261116T101430Z
 DTSTART:20261118T010000Z
 DTEND:20261130T010000Z
 SUMMARY:【セール】au PAY マーケット BLACK FRIDAY　最大64%OFF
@@ -434,7 +430,7 @@ DESCRIPTION:au PAY マーケット\n13日間の大型セール。カニな
  が条件。始まる前に済ませておく\n★還元の上限は4\,000
  ポイント。大きな買い物は上限を見て分ける\n公式：htt
  ps://wowma.jp/feature/black-friday\nネット通販セール暦：https://
- kfukuzumi1119-debug.github.io/sale-calendar/#aupay-blackfriday-2026
+ sale.hibitool.com/#aupay-blackfriday-2026
 URL:https://wowma.jp/feature/black-friday
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -445,13 +441,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:aupay-blackfriday-2026-end@sale-calendar
-DTSTAMP:20261116T065857Z
+DTSTAMP:20261116T101430Z
 DTSTART:20261129T215900Z
 DTEND:20261129T222900Z
 SUMMARY:【まもなく終了】au PAY マーケット BLACK FRIDAY　最
  大64%OFF
-DESCRIPTION:11/30 9:59 に終わります。\nhttps://kfukuzumi1119-debug.g
- ithub.io/sale-calendar/#aupay-blackfriday-2026
+DESCRIPTION:11/30 9:59 に終わります。\nhttps://sale.hibitool.com/#au
+ pay-blackfriday-2026
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:PT0M
@@ -461,14 +457,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gap-blackfriday-2026@sale-calendar
-DTSTAMP:20261116T065857Z
+DTSTAMP:20261116T101430Z
 DTSTART:20261118T150000Z
 DTEND:20261130T150000Z
 SUMMARY:【セール】Gap ブラックフライデー
 DESCRIPTION:Gap\n対象商品の値下げと、期間中の購入で「Blac
  k Friday Card」を配布。\n公式：https://www.gap.co.jp/\nネット
- 通販セール暦：https://kfukuzumi1119-debug.github.io/sale-calendar/#
- gap-blackfriday-2026
+ 通販セール暦：https://sale.hibitool.com/#gap-blackfriday-2026
 URL:https://www.gap.co.jp/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -478,12 +473,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gap-blackfriday-2026-end@sale-calendar
-DTSTAMP:20261116T065857Z
+DTSTAMP:20261116T101430Z
 DTSTART:20261130T115900Z
 DTEND:20261130T122900Z
 SUMMARY:【まもなく終了】Gap ブラックフライデー
-DESCRIPTION:11/30 23:59 に終わります。\nhttps://kfukuzumi1119-debug.
- github.io/sale-calendar/#gap-blackfriday-2026
+DESCRIPTION:11/30 23:59 に終わります。\nhttps://sale.hibitool.com/#g
+ ap-blackfriday-2026
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:PT0M
@@ -493,15 +488,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:toysrus-blackfriday-2026@sale-calendar
-DTSTAMP:20261116T065857Z
+DTSTAMP:20261116T101430Z
 DTSTART:20261119T030000Z
 DTEND:20261129T150000Z
 SUMMARY:【セール】トイザらス ブラックフライデー　最大
  78%OFF
 DESCRIPTION:トイザらス\nおもちゃ・ベビー用品550種以上が
  最大78%オフ。クリスマスプレゼントの買い時。\n公式：
- https://www.toysrus.co.jp/\nネット通販セール暦：https://kfukuzum
- i1119-debug.github.io/sale-calendar/#toysrus-blackfriday-2026
+ https://www.toysrus.co.jp/\nネット通販セール暦：https://sale.hib
+ itool.com/#toysrus-blackfriday-2026
 URL:https://www.toysrus.co.jp/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -512,13 +507,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:toysrus-blackfriday-2026-end@sale-calendar
-DTSTAMP:20261116T065857Z
+DTSTAMP:20261116T101430Z
 DTSTART:20261129T115900Z
 DTEND:20261129T122900Z
 SUMMARY:【まもなく終了】トイザらス ブラックフライデー
  　最大78%OFF
-DESCRIPTION:11/29 23:59 に終わります。\nhttps://kfukuzumi1119-debug.
- github.io/sale-calendar/#toysrus-blackfriday-2026
+DESCRIPTION:11/29 23:59 に終わります。\nhttps://sale.hibitool.com/#t
+ oysrus-blackfriday-2026
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:PT0M
@@ -528,7 +523,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rakuten-blackfriday-2026@sale-calendar
-DTSTAMP:20261116T065857Z
+DTSTAMP:20261116T101430Z
 DTSTART:20261119T110000Z
 DTEND:20261124T170000Z
 SUMMARY:【セール】楽天ブラックフライデー　最大50%OFF
@@ -542,8 +537,7 @@ DESCRIPTION:楽天市場\nショップ買いまわりでポイント最大1
  つく日。楽天カード払いでさらに上乗せ（25日は1:59ま
  で）\n★買いまわりのポイントは期間合計7\,000ポイント
  まで\n公式：https://www.rakuten.co.jp/\nネット通販セール暦
- ：https://kfukuzumi1119-debug.github.io/sale-calendar/#rakuten-blackfrida
- y-2026
+ ：https://sale.hibitool.com/#rakuten-blackfriday-2026
 URL:https://www.rakuten.co.jp/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -554,13 +548,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rakuten-blackfriday-2026-end@sale-calendar
-DTSTAMP:20261116T065857Z
+DTSTAMP:20261116T101430Z
 DTSTART:20261124T135900Z
 DTEND:20261124T142900Z
 SUMMARY:【まもなく終了】楽天ブラックフライデー　最大5
  0%OFF
-DESCRIPTION:11/25 1:59 に終わります。\nhttps://kfukuzumi1119-debug.g
- ithub.io/sale-calendar/#rakuten-blackfriday-2026
+DESCRIPTION:11/25 1:59 に終わります。\nhttps://sale.hibitool.com/#ra
+ kuten-blackfriday-2026
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:PT0M
@@ -570,7 +564,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:amazon-blackfriday-2026@sale-calendar
-DTSTAMP:20261116T065857Z
+DTSTAMP:20261116T101430Z
 DTSTART:20261119T150000Z
 DTEND:20261130T150000Z
 SUMMARY:【セール】Amazon ブラックフライデー（予想）
@@ -585,8 +579,8 @@ DESCRIPTION:Amazon\n※日程は未発表。公式発表は「11月に開
  ップ\n★欲しい物はほしい物リストかカートに入れてお
  くと、値下がりがすぐわかる\n★先行セールの時点で本
  番と同じ値段の商品も多い\n公式：https://www.amazon.co.jp/\n
- ネット通販セール暦：https://kfukuzumi1119-debug.github.io/sale-c
- alendar/#amazon-blackfriday-2026
+ ネット通販セール暦：https://sale.hibitool.com/#amazon-blackfrida
+ y-2026
 URL:https://www.amazon.co.jp/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -597,7 +591,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:qoo10-megawari-2026-11@sale-calendar
-DTSTAMP:20261116T065857Z
+DTSTAMP:20261116T101430Z
 DTSTART:20261120T010000Z
 DTEND:20261202T150000Z
 SUMMARY:【セール】Qoo10 メガ割　20%OFFクーポン
@@ -609,7 +603,7 @@ DESCRIPTION:Qoo10\n韓国コスメで人気の年4回のセール。全商
  とめず分けて使う\n★人気コスメは初日に売り切れやす
  い。カートに入れて開始を待つ\n公式：https://www.qoo10.jp/
  gmkt.inc/Special/Special.aspx?sid=162285\nネット通販セール暦：ht
- tps://kfukuzumi1119-debug.github.io/sale-calendar/#qoo10-megawari-2026-11
+ tps://sale.hibitool.com/#qoo10-megawari-2026-11
 URL:https://www.qoo10.jp/gmkt.inc/Special/Special.aspx?sid=162285
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -620,12 +614,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:qoo10-megawari-2026-11-end@sale-calendar
-DTSTAMP:20261116T065857Z
+DTSTAMP:20261116T101430Z
 DTSTART:20261202T115900Z
 DTEND:20261202T122900Z
 SUMMARY:【まもなく終了】Qoo10 メガ割　20%OFFクーポン
-DESCRIPTION:12/2 23:59 に終わります。\nhttps://kfukuzumi1119-debug.g
- ithub.io/sale-calendar/#qoo10-megawari-2026-11
+DESCRIPTION:12/2 23:59 に終わります。\nhttps://sale.hibitool.com/#qo
+ o10-megawari-2026-11
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:PT0M
@@ -635,7 +629,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:yahoo-blackfriday-2026@sale-calendar
-DTSTAMP:20261116T065857Z
+DTSTAMP:20261116T101430Z
 DTSTART:20261121T150000Z
 DTEND:20261129T170000Z
 SUMMARY:【セール】Yahoo!ショッピング ブラックフライデー
@@ -650,8 +644,7 @@ DESCRIPTION:Yahoo!ショッピング\n今年は8日間に延長。50%OFF以
  毎日最大5%。まだなら先に連携しておく\n★11/22と11/29は
  「本気のZOZO祭」（ZOZOTOWN Yahoo!店で8%付与）\n公式：https:
  //shopping.yahoo.co.jp/promotion/campaign/blackfriday/\nネット通販セ
- ール暦：https://kfukuzumi1119-debug.github.io/sale-calendar/#yahoo-bla
- ckfriday-2026
+ ール暦：https://sale.hibitool.com/#yahoo-blackfriday-2026
 URL:https://shopping.yahoo.co.jp/promotion/campaign/blackfriday/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -662,13 +655,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:yahoo-blackfriday-2026-end@sale-calendar
-DTSTAMP:20261116T065857Z
+DTSTAMP:20261116T101430Z
 DTSTART:20261129T135900Z
 DTEND:20261129T142900Z
 SUMMARY:【まもなく終了】Yahoo!ショッピング ブラックフラ
  イデー　最大50%OFF
-DESCRIPTION:11/30 1:59 に終わります。\nhttps://kfukuzumi1119-debug.g
- ithub.io/sale-calendar/#yahoo-blackfriday-2026
+DESCRIPTION:11/30 1:59 に終わります。\nhttps://sale.hibitool.com/#ya
+ hoo-blackfriday-2026
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:PT0M
@@ -678,7 +671,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rakuten-supersale-2026-12@sale-calendar
-DTSTAMP:20261116T065857Z
+DTSTAMP:20261116T101430Z
 DTSTART:20261204T110000Z
 DTEND:20261210T170000Z
 SUMMARY:【セール】楽天スーパーSALE　半額商品あり（予想
@@ -689,8 +682,8 @@ DESCRIPTION:楽天市場\n※日程は未発表。公式発表はまだ。
  エントリー：例年は必要\n★12/5（土）・12/10（木）は5
  と0のつく日にあたる見込み\n★開始直後と最終日の夜
  に限定クーポン・タイムセールが集中しやすい\n公式：
- https://www.rakuten.co.jp/\nネット通販セール暦：https://kfukuzum
- i1119-debug.github.io/sale-calendar/#rakuten-supersale-2026-12
+ https://www.rakuten.co.jp/\nネット通販セール暦：https://sale.hib
+ itool.com/#rakuten-supersale-2026-12
 URL:https://www.rakuten.co.jp/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -701,7 +694,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rakuten-daikanshasai-2026-12@sale-calendar
-DTSTAMP:20261116T065857Z
+DTSTAMP:20261116T101430Z
 DTSTART:20261219T110000Z
 DTEND:20261225T170000Z
 SUMMARY:【セール】楽天大感謝祭（予想）
@@ -711,7 +704,7 @@ DESCRIPTION:楽天市場\n※日程は未発表。公式発表はまだ。1
  ントリー：例年は必要\n★スーパーSALE で買い逃した物
  はここで\n★12/20・12/25 は5と0のつく日にあたる見込み\n
  公式：https://www.rakuten.co.jp/\nネット通販セール暦：https:/
- /kfukuzumi1119-debug.github.io/sale-calendar/#rakuten-daikanshasai-2026-12
+ /sale.hibitool.com/#rakuten-daikanshasai-2026-12
 URL:https://www.rakuten.co.jp/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -721,7 +714,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:amazon-hatsuuri-2027-01@sale-calendar
-DTSTAMP:20261116T065857Z
+DTSTAMP:20261116T101430Z
 DTSTART:20270103T000000Z
 DTEND:20270107T150000Z
 SUMMARY:【セール】Amazon 初売り（予想）
@@ -730,8 +723,8 @@ DESCRIPTION:Amazon\n※日程は未発表。昨年は1/3（土）9:00〜1/7
  n年始恒例のセール。福袋や家電・日用品の値下げが並
  ぶ。\nエントリー：例年は必要\n★例年はエントリーの
  うえ対象期間に買い物するとポイントアップ\n公式：htt
- ps://www.amazon.co.jp/\nネット通販セール暦：https://kfukuzumi111
- 9-debug.github.io/sale-calendar/#amazon-hatsuuri-2027-01
+ ps://www.amazon.co.jp/\nネット通販セール暦：https://sale.hibitoo
+ l.com/#amazon-hatsuuri-2027-01
 URL:https://www.amazon.co.jp/
 BEGIN:VALARM
 ACTION:DISPLAY
