@@ -233,6 +233,24 @@
     "source": "トクバイニュース"
   },
   {
+    "id": "zozotown-blackfriday-2026",
+    "shop": "other",
+    "shopName": "ZOZOTOWN",
+    "cat": "fashion",
+    "title": "ZOZOTOWN ブラックフライデー",
+    "off": "最大95%OFF",
+    "start": "2026-11-19T12:00",
+    "end": "2026-11-29T23:59",
+    "status": "confirmed",
+    "entry": "なし",
+    "summary": "秋冬アイテム35万点以上が対象の11日間。一部ショップで「毎日2BUY20%」、300ブランド超の福袋も販売。",
+    "tips": [
+      "福袋は12/6 23:59まで販売"
+    ],
+    "url": "https://zozo.jp/",
+    "source": "ZOZOTOWN発表（ネットショップ担当者フォーラムなど）"
+  },
+  {
     "id": "rakuten-blackfriday-2026",
     "shop": "rakuten",
     "cat": "mall",
@@ -251,6 +269,23 @@
     ],
     "url": "https://www.rakuten.co.jp/",
     "source": "楽天市場の告知・Appliv・トクバイニュース"
+  },
+  {
+    "id": "uniqlo-kanshasai-2026-11",
+    "shop": "other",
+    "shopName": "ユニクロ",
+    "cat": "fashion",
+    "title": "ユニクロ感謝祭",
+    "start": "2026-11-20T00:00",
+    "end": "2026-11-26T23:59",
+    "status": "confirmed",
+    "entry": "なし",
+    "summary": "店舗とオンラインストアで7日間。ヒートテックやフリース、暖パンなど冬物が「感謝価格」になる。",
+    "tips": [
+      "11/20〜11/23は1万円以上の購入でパッカブルビッグトートバッグがもらえる（オンラインは毎日抽選・1人1点）"
+    ],
+    "url": "https://www.uniqlo.com/jp/ja/spl/feature/kanshasai",
+    "source": "ユニクロ公式サイト"
   },
   {
     "id": "qoo10-megawari-2026-11",
